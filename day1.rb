@@ -34,3 +34,12 @@ foods = ["pizza", "apple", "banana", "pie"]
 puts foods[0]
 puts foods[-1]
 puts foods.length
+
+# Task 6
+
+num = 0
+while
+num <= 10
+  puts num
+  num += 1
+end
