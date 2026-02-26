@@ -65,3 +65,18 @@ num > 10
 elsif puts "Small number"
 end
 
+# Task 9
+
+# Task 10
+puts "Enter item 1:"
+item1 = gets.chomp()
+puts "Enter item 2:"
+item2 = gets.chomp()
+puts "Enter item 3:"
+item3 = gets.chomp()
+
+items = [item1, item2, item3]
+
+puts items[0]
+puts items[1]
+puts items[2]
