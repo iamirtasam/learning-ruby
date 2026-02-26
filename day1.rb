@@ -53,3 +53,15 @@ def double(num)
 end
 
 puts double(num)
+
+# Task 8
+
+puts "Enter a number:"
+num = gets.to_f
+
+if
+num > 10
+  puts "Big number"
+elsif puts "Small number"
+end
+
