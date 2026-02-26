@@ -43,3 +43,13 @@ num <= 10
   puts num
   num += 1
 end
+
+# Task 7
+
+puts "Enter a number:"
+num = gets.to_i
+def double(num)
+  puts num * 2
+end
+
+puts double(num)
