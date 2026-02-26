@@ -26,3 +26,11 @@ num2 = gets.chomp().to_f
 
 result = num1 + num2
 puts result.to_f
+
+
+# Task 5
+
+foods = ["pizza", "apple", "banana", "pie"]
+puts foods[0]
+puts foods[-1]
+puts foods.length
