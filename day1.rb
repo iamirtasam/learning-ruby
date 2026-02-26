@@ -16,3 +16,13 @@ string = "Hi, this is a string."
 puts string.upcase()
 puts string.length()
 puts string.include? "this"
+
+# Task 4
+
+puts "Enter number 1:"
+num1 = gets.chomp().to_f
+puts "Enter Number 2:"
+num2 = gets.chomp().to_f
+
+result = num1 + num2
+puts result.to_f
