@@ -66,6 +66,14 @@ elsif puts "Small number"
 end
 
 # Task 9
+puts "Enter a number:"
+number = gets.to_i
+
+if number % 2 == 0
+  puts "Even"
+else
+  puts "Odd"
+end
 
 # Task 10
 puts "Enter item 1:"
@@ -80,3 +88,13 @@ items = [item1, item2, item3]
 puts items[0]
 puts items[1]
 puts items[2]
+
+# Task 11
+puts "Enter a word:"
+word = gets.chomp()
+puts "Number of times to print:"
+number = gets.chomp().to_i
+
+number.times do
+  puts word
+end
