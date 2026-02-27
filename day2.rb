@@ -70,3 +70,26 @@ end
 
 puts "Vowels: " + vowel_count.to_s
 
+# Task 5
+
+puts "Enter score 1:"
+score1 = gets.chomp.to_i
+puts "Enter score 2:"
+score2 = gets.chomp.to_i
+puts "Enter score 3:"
+score3 = gets.chomp.to_i
+puts "Enter score 4:"
+score4 = gets.chomp.to_i
+
+
+total_score = score1 + score2 + score3 + score4
+average = total_score / 4
+puts "Total score: " + total_score.to_s
+puts "Average: " + average.to_s
+
+if
+average > 50
+  puts "Good"
+  else puts "Needs Improvement"
+end
+
