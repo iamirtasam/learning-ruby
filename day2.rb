@@ -51,4 +51,22 @@ else
 end
 
 
-# 
+# Task 4
+puts "Enter a word:"
+word = gets.chomp.downcase
+
+vowel_count = 0
+i = 0
+
+while i < word.length
+  char = word[i]
+
+  if char == "a" || char == "e" || char == "i" || char == "o" || char == "u"
+    vowel_count += 1
+  end
+
+  i += 1
+end
+
+puts "Vowels: " + vowel_count.to_s
+
