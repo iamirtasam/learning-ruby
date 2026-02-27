@@ -16,3 +16,21 @@ elsif num3 > num1
 elsif num3 > num2
   puts "The largest number is " + num3.to_s
 end
+
+# Task 2
+
+puts "How many numbers do you want to add?"
+count = gets.chomp().to_i
+
+total = 0
+i = 0
+
+while i < count
+  puts "Enter a Number:"
+  number = gets.chomp.to_i
+  total += number
+  i += number
+end
+
+puts "Total is " + total.to_s
+
