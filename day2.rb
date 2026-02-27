@@ -95,3 +95,14 @@ average > total_score / 2
   else puts "Needs Improvement"
 end
 
+# Task 6
+
+puts "Enter a sentence:"
+sentence = gets.chomp().to_s
+
+File.open("notes.txt", "a+") do |file|
+  file.write(sentence)
+end
+
+content = File.read("notes.txt")
+puts content
