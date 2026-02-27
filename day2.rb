@@ -34,3 +34,21 @@ end
 
 puts "Total is " + total.to_s
 
+# Task 3
+
+correct_username = "admin"
+correct_password = "1234"
+
+puts "Enter username:"
+username = gets.chomp()
+puts "Enter password:"
+password = gets.chomp()
+
+if username == correct_username && password == correct_password
+  puts "Access Granted"
+else
+  puts "Access Denied"
+end
+
+
+# 
