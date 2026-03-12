@@ -102,6 +102,6 @@ end
 # Task 12
 puts "Enter your name:"
 name = gets.chomp()
-File.open("name.txt", "a+") do |file|
+File.open("name.txt", "a+") do |file| 
   file.write(name.to_s + "\n")
 end
