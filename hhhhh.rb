@@ -92,3 +92,35 @@ puts player_lives >= max_lives
 
 # 6. Check if player_score is less than or equal to high_score
 puts player_score <= high_score
+
+
+# Variables are already defined for you
+temperature = 22
+is_sunny = true
+has_umbrella = false
+is_weekend = true
+has_homework = false
+
+# TODO: Write your code below
+# Use && and || operators to evaluate the expressions
+# Print each result on a separate line
+
+# 1. Check if temperature > 20 AND is_sunny is true
+
+puts temperature > 20 && is_sunny
+
+# 2. Check if is_sunny is true OR has_umbrella is true
+
+puts is_sunny || has_umbrella
+
+# 3. Check if is_weekend is true AND has_homework is false
+
+puts is_weekend && !has_homework
+
+# 4. Check if temperature < 10 OR temperature > 30
+
+puts temperature < 10 || temperature > 30
+
+# 5. Check if is_weekend is true AND is_sunny is true AND temperature >= 20
+
+puts is_weekend && temperature >= 20
