@@ -31,3 +31,30 @@ puts balance *= 2
 puts balance /= 4
 # 5. Get the remainder when balance is divided by 7, then print it
 puts balance %= 7
+
+
+# Given variables
+price = 45
+quantity = 8
+discount = 10
+tax_rate = 5
+
+# TODO: Write your code below
+# Calculate each value and store in variables:
+# 1. subtotal
+subtotal = price * quantity
+puts subtotal
+# 2. discount_amount
+discount_amount = subtotal * discount / 100.0
+puts discount_amount.to_f
+# 3. price_after_discount
+price_after_discount = subtotal - discount_amount
+puts price_after_discount.to_f
+# 4. tax_amount
+tax_amount = price_after_discount * tax_rate / 100.0
+puts tax_amount.to_f
+# 5. final_total
+final_total = price_after_discount + tax_amount
+puts final_total.to_f
+
+# Then display each value on a separate line using puts
