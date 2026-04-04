@@ -124,3 +124,23 @@ puts temperature < 10 || temperature > 30
 # 5. Check if is_weekend is true AND is_sunny is true AND temperature >= 20
 
 puts is_weekend && temperature >= 20
+
+
+# Variables are already defined for you
+is_raining = true
+has_ticket = false
+is_member = true
+age = 16
+balance = 0
+
+# TODO: Use the ! (not) operator to evaluate and print each expression
+# 1. The opposite of is_raining
+puts !is_raining
+# 2. The opposite of has_ticket
+puts !has_ticket
+# 3. The opposite of is_member
+puts !is_member
+# 4. Check if age is NOT greater than or equal to 18
+puts !(age >= 18)
+# 5. Check if balance is NOT equal to 0
+puts !(balance == 0)
