@@ -58,3 +58,37 @@ final_total = price_after_discount + tax_amount
 puts final_total.to_f
 
 # Then display each value on a separate line using puts
+
+
+# Game score variables
+player_score = 85
+high_score = 100
+passing_score = 70
+player_lives = 3
+max_lives = 3
+
+# TODO: Write your code below
+# Use comparison operators to evaluate each comparison and print the result
+
+# 1. Check if player_score is equal to high_score
+
+puts player_score == high_score
+
+# 2. Check if player_score is not equal to passing_score
+
+puts player_lives != passing_score
+
+# 3. Check if player_score is greater than passing_score
+
+puts player_score > passing_score
+
+# 4. Check if player_score is less than high_score
+
+puts player_score < high_score
+
+# 5. Check if player_lives is greater than or equal to max_lives
+
+puts player_lives >= max_lives
+
+# 6. Check if player_score is less than or equal to high_score
+puts player_score <= high_score
