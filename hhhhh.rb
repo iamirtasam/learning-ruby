@@ -348,3 +348,36 @@ else
     end
   end
 end
+
+
+# Variables are already defined for you
+has_ticket = false
+is_vip = true
+items_in_cart = 0
+battery_level = 15
+is_charging = false
+
+# TODO: Write your code below
+# Use unless statements to check each condition and print the appropriate message
+
+unless has_ticket
+  puts "Please purchase a ticket"
+end
+
+unless is_vip
+  puts "VIP access required"
+end
+
+unless items_in_cart > 0
+  puts "Your cart is empty"
+end
+
+unless battery_level > 20
+  puts "Low battery warning"
+end
+
+unless is_charging || battery_level > 50
+  puts "Please charge your device"
+end
+
+
