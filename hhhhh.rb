@@ -258,3 +258,46 @@ if age >= 21 && balance > 0
   puts "Can make purchase"
 end
 
+
+# Variables are already defined for you
+temperature = 35
+has_umbrella = false
+account_balance = 50
+withdrawal_amount = 75
+player_score = 100
+high_score = 100
+
+# TODO: Write your code below
+# Use if-else statements to evaluate each scenario and print the appropriate message
+
+if temperature > 30
+  puts "It's hot outside"
+else
+  puts "The weather is nice."
+end
+
+if has_umbrella
+  puts "You're prepared for rain"
+else
+  puts "You might get wet"
+end
+
+if account_balance >= withdrawal_amount
+  puts "Withdrawal approved"
+else
+  puts "Insufficient funds"
+end
+
+if player_score > high_score
+  puts "New high score!"
+else
+  puts "Try again"
+end
+
+if temperature < 0 || temperature > 40
+  puts "Extreme Weather"
+else
+  puts "Normal conditions"
+end
+
+
