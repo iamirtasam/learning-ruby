@@ -301,3 +301,28 @@ else
 end
 
 
+operator = "*"
+num1 = 12
+num2 = 4
+
+# TODO: Write your code below
+# Use if-else statements to check the operator and perform the correct operation
+# Output the result using puts
+
+if operator == "+"
+  puts num1 + num2
+end
+
+if operator == "-"
+  puts num1 - num2
+end
+
+if operator == "*"
+  puts num1 * num2
+end
+
+if operator == "/"
+  puts num1 / num2
+end
+
+
