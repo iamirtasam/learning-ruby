@@ -326,3 +326,25 @@ if operator == "/"
 end
 
 
+temperature = 15
+
+# TODO: Write your code below to classify the temperature
+# Use if, elsif, and else to print the appropriate weather advisory message
+
+if temperature >= 30
+  puts "Hot - Stay hydrated"
+else
+  if temperature >= 20
+    puts "Warm - Enjoy the day"
+  else
+    if temperature >= 10
+      puts "Cool - Bring a jacket"
+    else
+      if temperature >= 0
+        puts "Cold - Bundle up"
+      else
+        puts "Freezing - Stay indoors"
+      end
+    end
+  end
+end
