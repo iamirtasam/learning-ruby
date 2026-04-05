@@ -180,3 +180,20 @@ puts is_weekend || years_of_experience < 1
 
 puts age > 21 && has_license && is_weekend || !
 
+
+# Variables are provided for you
+a = true
+b = false
+c = true
+
+# TODO: Write your code below
+# Use the word-based logical operators (and, or, not) to evaluate and print each expression
+# Each result should be printed on a separate line
+
+puts (a and b)
+puts (a or b)
+puts (not b)
+puts (a and c)
+puts (b or c)
+puts (not a)
+
