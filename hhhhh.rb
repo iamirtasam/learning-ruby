@@ -197,3 +197,38 @@ puts (a and c)
 puts (b or c)
 puts (not a)
 
+
+# Variables are already defined for you
+x = true
+y = false
+z = true
+a = false
+
+# TODO: Evaluate each expression and print the result on a separate line
+# Remember operator precedence: ! first, then &&, then ||
+
+# 1. x || y && z
+puts x || y && z
+
+# 2. !y && z
+puts !y && z
+
+# 3. x && y || z
+puts x && y || z
+
+# 4. !a || y && z
+puts !a || y && z
+
+# 5. x && !y && z
+puts x && !y && z
+
+# 6. (x || y) && a
+puts (x || y) && a
+
+# 7. x || (y && a)
+puts x || (y && a)
+
+# 8. !(x && y) || z
+puts !(x && y) || z
+
+
