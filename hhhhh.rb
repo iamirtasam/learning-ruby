@@ -144,3 +144,39 @@ puts !is_member
 puts !(age >= 18)
 # 5. Check if balance is NOT equal to 0
 puts !(balance == 0)
+
+
+
+# Variables provided
+age = 25
+has_license = true
+years_of_experience = 3
+has_insurance = false
+is_weekend = true
+
+# TODO: Write your code below
+# Evaluate each expression and print the result (true or false)
+
+# 1. Check if age is between 18 and 65 (inclusive) using &&
+puts age > 18 && age < 65
+
+# 2. Check if the person can drive
+
+puts age > 18 && has_license
+
+# 3. Check if the person is an experienced driver
+
+puts has_license && years_of_experience >= 2
+
+# 4. Check if the person needs insurance
+
+puts has_license && !has_insurance
+
+# 5. Check if it's a good day to practice driving
+
+puts is_weekend || years_of_experience < 1
+
+# 6. Check if the person is a qualified weekend driver
+
+puts age > 21 && has_license && is_weekend || !
+
