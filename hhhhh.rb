@@ -232,3 +232,29 @@ puts x || (y && a)
 puts !(x && y) || z
 
 
+# Variables are already defined for you
+score = 85
+temperature = 30
+is_member = true
+balance = 150
+age = 21
+
+# TODO: Write your code below
+# Use if statements to check each condition and print the appropriate message
+
+if score >= 70
+  puts "Passed!"
+end
+
+if temperature > 25 && is_member
+  puts "Pool access granted"
+end
+
+if balance > 100 || is_member
+  puts "Eligible for discount"
+end
+
+if age >= 21 && balance > 0
+  puts "Can make purchase"
+end
+
