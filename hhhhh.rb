@@ -381,3 +381,11 @@ unless is_charging || battery_level > 50
 end
 
 
+# TODO: Write your code below
+# Use puts to display the bookstore information
+# Remember: puts with multiple items separated by commas prints each on its own line
+
+puts "Welcome to Ruby Books!"
+puts "Fiction", "Mystery", "Science"
+puts "Happy Reading!"
+
