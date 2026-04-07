@@ -402,3 +402,24 @@ p "debug"
 # 3. Use p to output the number 42
 p 42
 
+# Variables are already defined for you
+product = "Laptop"
+price = 999
+quantity = 3
+
+# TODO: Write your code below
+# Use string interpolation with puts to display:
+# 1. Product: Laptop
+
+puts "Product: #{product}"
+
+# 2. Price: $999
+
+puts "Price: $#{price}"
+
+# 3. Total: $2997 (calculate price * quantity inside the interpolation)
+
+puts "Total: $#{price * quantity}"
+
+
+
