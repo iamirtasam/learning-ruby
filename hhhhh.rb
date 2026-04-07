@@ -423,3 +423,11 @@ puts "Total: $#{price * quantity}"
 
 
 
+# TODO: Read a name from the user using gets and store it in a variable called name
+
+
+# TODO: Use p to output the name variable
+
+name = gets
+p name
+
