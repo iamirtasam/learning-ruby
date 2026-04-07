@@ -389,3 +389,16 @@ puts "Welcome to Ruby Books!"
 puts "Fiction", "Mystery", "Science"
 puts "Happy Reading!"
 
+
+# TODO: Write your code below
+
+# 1. Use print twice to output "Ruby" and "Programming" on the same line,
+#    then use a bare puts (with no arguments) to move to the next line
+print "Ruby"
+print "Programming"
+puts ""
+# 2. Use p to output the string "debug"
+p "debug"
+# 3. Use p to output the number 42
+p 42
+
