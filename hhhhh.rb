@@ -431,3 +431,23 @@ puts "Total: $#{price * quantity}"
 name = gets
 p name
 
+# Read the city name from the user
+city = gets.chomp
+
+# TODO: Write your code below to output the welcome message using string interpolation
+
+puts "Welcome to #{city}!"
+
+
+# Read input
+integer_num = gets.chomp.to_i
+float_num = gets.chomp.to_f
+
+# TODO: Write your code below to calculate the sum and product
+
+puts integer_num + float_num
+puts integer_num * float_num
+
+# Output the results (print sum and product on separate lines)
+
+
