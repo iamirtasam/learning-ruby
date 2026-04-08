@@ -479,3 +479,12 @@ end
 
 # Output the result
 puts result
+
+
+# TODO: Write your code below
+# Use puts to display the welcome message
+# Remember to use \n for new lines
+
+puts "Welcome to the Bill Split Calculator!\nLet's split your bill fairly."
+
+
