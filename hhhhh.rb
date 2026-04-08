@@ -451,3 +451,13 @@ puts integer_num * float_num
 # Output the results (print sum and product on separate lines)
 
 
+# Read input
+birth_year = gets.chomp.to_i
+current_year = gets.chomp.to_i
+
+# TODO: Write your code below to calculate the age
+
+age = current_year - birth_year
+puts "You are #{age} years old"
+# TODO: Output the result using string interpolation
+
