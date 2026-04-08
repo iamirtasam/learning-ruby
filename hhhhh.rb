@@ -488,3 +488,17 @@ puts result
 puts "Welcome to the Bill Split Calculator!\nLet's split your bill fairly."
 
 
+# TODO: Write your code below
+# Use puts to display the welcome message
+puts "Welcome to the Bill Split Calculator!\nLet's split your bill fairly."
+
+# Read user inputs
+bill = gets.chomp.to_f
+tip_percent = gets.chomp.to_f
+people = gets.chomp.to_f
+
+# Display confirmation message
+puts "Bill: $%g" % bill
+puts "Tip: %g%%" % tip_percent
+puts "People: %g" % people
+
