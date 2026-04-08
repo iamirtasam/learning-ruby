@@ -461,3 +461,21 @@ age = current_year - birth_year
 puts "You are #{age} years old"
 # TODO: Output the result using string interpolation
 
+
+
+
+
+# Read input
+number = gets.chomp.to_i
+lower_bound = gets.chomp.to_i
+upper_bound = gets.chomp.to_i
+
+# TODO: Write your code below
+# Check if number is within the range (inclusive) using && operator
+
+if number >= lower_bound && number <= upper_bound
+  result = true
+end
+
+# Output the result
+puts result
