@@ -550,3 +550,28 @@ per_person = total_bill / people
 puts "Each person pays: $%g" % per_person
 
 
+# TODO: Write your code below
+# Use puts to display the welcome message
+puts "Welcome to the Bill Split Calculator!\nLet's split your bill fairly."
+
+# Read user inputs
+bill = gets.chomp.to_f
+tip_percent = gets.chomp.to_f
+people = gets.chomp.to_f
+
+# Display confirmation message
+puts "Bill: $%.2f" % bill
+puts "Tip: %g%%" % tip_percent
+puts "People: %g" % people
+
+tip_amount = bill * tip_percent / 100
+total_bill = bill + tip_amount
+
+puts "Tip amount: $%.2f" % tip_amount
+puts "Total with tip: $%.2f" % total_bill
+
+per_person = total_bill / people
+
+puts "Each person pays: $%.2f" % per_person
+
+
