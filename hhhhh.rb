@@ -587,3 +587,17 @@ for i in 1..n
 end
 
 
+# Read the starting number
+n = gets.chomp.to_i
+
+# TODO: Write your code below
+# Use a while loop to print numbers from n down to 1
+# Then print "Blastoff!"
+
+while n > 0
+  puts n
+  n -= 1
+end
+puts "Blastoff!"
+
+
