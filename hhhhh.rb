@@ -634,3 +634,15 @@ for num in start..end_num
   puts num
 end
 
+
+# Read input
+n = gets.to_i
+
+# TODO: Write your code below to calculate the factorial of n
+factorial = 1
+for i in 1..n
+  factorial *= i
+end
+
+# Output the result
+puts factorial
