@@ -619,3 +619,18 @@ for i in 1..limit
 end
 
 
+# Read input
+start = gets.chomp.to_i
+end_num = gets.chomp.to_i
+
+# TODO: Write your code below
+# Loop through numbers from start to end_num
+# Use next to skip numbers divisible by 3
+# Print numbers that are NOT divisible by 3
+for num in start..end_num
+  if num % 3 == 0
+    next
+  end
+  puts num
+end
+
