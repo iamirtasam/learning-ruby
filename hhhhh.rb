@@ -575,3 +575,15 @@ per_person = total_bill / people
 puts "Each person pays: $%.2f" % per_person
 
 
+
+# Read the number from input
+n = gets.to_i
+
+# TODO: Write your code below
+# Use a for loop with a range to print all numbers from 1 to n
+
+for i in 1..n
+  puts i
+end
+
+
