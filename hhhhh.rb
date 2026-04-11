@@ -601,3 +601,21 @@ end
 puts "Blastoff!"
 
 
+# Read input
+limit = gets.to_i
+target = gets.to_i
+
+# TODO: Write your code below
+# Loop through numbers from 1 to limit
+# Print each number on its own line
+# When you reach the target, print "Found!" and break out of the loop
+
+for i in 1..limit
+  if i == target
+    puts "Found!"
+    break
+  end
+  puts i
+end
+
+
