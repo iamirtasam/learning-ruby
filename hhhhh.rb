@@ -646,3 +646,13 @@ end
 
 # Output the result
 puts factorial
+
+
+
+# Read the number of iterations
+n = gets.to_i
+
+# TODO: Write your code below
+# Use the times loop with its index to print the multiplication table for 2
+# Format: 2 x [index] = [result]
+
