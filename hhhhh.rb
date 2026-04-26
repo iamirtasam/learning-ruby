@@ -679,3 +679,19 @@ end
 
 # Print "Done!" after the loop
 puts "Done!"
+
+
+# Read input
+rows = gets.to_i
+cols = gets.to_i
+
+# TODO: Write your code below
+# Use nested loops to print a rectangle of asterisks
+# Use print for asterisks within a row and puts to move to the next line
+
+for i in 1..rows
+  for j in 1..cols
+    print "* "
+  end
+  puts ""
+end
