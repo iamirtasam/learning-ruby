@@ -656,3 +656,15 @@ n = gets.to_i
 # Use the times loop with its index to print the multiplication table for 2
 # Format: 2 x [index] = [result]
 
+# Read the number of iterations
+n = gets.to_i
+
+# TODO: Write your code below
+# Use the times loop with its index to print the multiplication table for 2
+# Format: 2 x [index] = [result]
+
+n.times do |i|
+  result = 2 * (i + 1)
+  puts "2 x #{i + 1} = #{result}"
+end
+
