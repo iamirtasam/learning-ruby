@@ -660,3 +660,22 @@ n.times do |i|
   result = 2 * i
   puts "2 x #{i} = #{result}"
 end
+
+
+# Read the target number
+n = gets.to_i
+
+# Initialize counter
+counter = 1
+
+# TODO: Write your code below
+# Use an until loop to print numbers from 1 to n
+# The loop should continue until counter exceeds n
+
+until counter > n
+  puts counter
+  counter += 1
+end
+
+# Print "Done!" after the loop
+puts "Done!"
